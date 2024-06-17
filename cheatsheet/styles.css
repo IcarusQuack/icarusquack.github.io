@@ -1,0 +1,20 @@
+body {
+    background-color: darkmagenta;
+    color:azure;
+}
+
+table {
+    color: azure;
+}
+
+thead {
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+
+tbody {
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    line-height: 1.3;
+}
