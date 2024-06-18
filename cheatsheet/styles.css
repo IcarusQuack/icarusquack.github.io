@@ -39,3 +39,14 @@ table td {
     width: 500px;
     background-color: rgb(69, 29, 49);
 }
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: rgb(186, 143, 226);
+}
