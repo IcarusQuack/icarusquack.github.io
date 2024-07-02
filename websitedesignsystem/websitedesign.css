@@ -23,7 +23,6 @@ section {
 }
 
 .color-block {
-    border: solid 1px black;
     width: 30%;
     display: inline-block;
     text-align: center;
@@ -35,7 +34,21 @@ section {
 }
 
 .purple {
-    background-color: #C70DC6;
+    background-color: #8F0B8F;
     color: white;
 }
 
+.blue {
+    background-color: #76E0EB;
+    color: black;
+}
+
+.orange {
+    background-color: #ff9100;
+    color: black;
+}
+
+.green {
+    background-color: #0CFF00;
+    color: black;
+}
