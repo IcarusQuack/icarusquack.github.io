@@ -33,6 +33,13 @@ article {
     text-align: center;
     margin: 10px auto;
     vertical-align: top;
+    padding: 0 5px;
+}
+
+.font {
+    border: dashed 1px grey;
+    height: 350px;
+    overflow: scroll;
 }
 
 .colorcode {
