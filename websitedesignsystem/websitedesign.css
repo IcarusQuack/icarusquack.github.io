@@ -1,0 +1,41 @@
+* {
+    margin: 25 auto;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align:left;
+}
+
+h3{
+    font-size: 70%;
+}
+
+section {
+    border: solid 2px grey;
+    width: 85%;
+    text-align: center;
+    padding: 20px;
+}
+
+.color-block {
+    border: solid 1px black;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.colorcode {
+    font-size: 50%;
+}
+
+.purple {
+    background-color: #C70DC6;
+    color: white;
+}
+
