@@ -34,12 +34,18 @@ article {
     margin: 10px auto;
     vertical-align: top;
     padding: 0 5px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+article::-webkit-scrollbar {
+    display: none;
 }
 
 .font {
     border: dashed 1px grey;
     height: 350px;
-    overflow: scroll;
 }
 
 .colorcode {
