@@ -32,6 +32,7 @@ article {
     display: inline-block;
     text-align: center;
     margin: 10px auto;
+    vertical-align: top;
 }
 
 .colorcode {
@@ -62,3 +63,10 @@ article {
     font-family: 'Chakra Petch', sans-serif;
 }
 
+.helvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+.comicsans {
+    font-family: 'Comic Sans MS', cursive, serif;
+}
