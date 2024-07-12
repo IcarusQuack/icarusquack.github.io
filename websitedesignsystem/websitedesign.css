@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Quicksand', Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:grey;
+}
+
 h1 {
     text-align: center;
 }
@@ -72,14 +86,14 @@ article::-webkit-scrollbar {
     color: black;
 }
 
-.chakra-petch {
+article.chakra-petch {
     font-family: 'Chakra Petch', sans-serif;
 }
 
-.helvetica {
+article.helvetica {
     font-family: Helvetica, sans-serif;
 }
 
-.comicsans {
+article.comicsans {
     font-family: 'Comic Sans MS', cursive, serif;
 }
