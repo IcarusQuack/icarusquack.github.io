@@ -16,7 +16,7 @@ header {
 p.socials {
     margin-bottom: 10px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 nav {
@@ -27,7 +27,8 @@ nav li {
     display: inline-block;
 }
 
-nav li a{
+a.socials,
+a.socials:visited {
     background-color: #1D267D;
     padding: 8px 15px;
     margin: 10px 8px;
@@ -37,8 +38,12 @@ nav li a{
     border-radius: 10%;
 }
 
-nav li a:hover {
+a.socials:hover {
     background-color:#363d7e;
+}
+
+a.socials:active {
+    background-color:#4f5484;
 }
 
 main {
