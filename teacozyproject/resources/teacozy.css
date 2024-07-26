@@ -1,0 +1,44 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px; 
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+header,
+header img,
+header ul {
+    top: 0;
+    margin: 0 10px;
+    position: fixed;
+}
+
+header img {
+    text-align: left;
+    left: 0px;
+    height: 50px;
+    display: inline-block;
+}
+
+header ul {
+    display: inline-block;
+    right: 0px;
+    top: 20px;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+body {
+    position: relative;
+    top: 69px;
+}
