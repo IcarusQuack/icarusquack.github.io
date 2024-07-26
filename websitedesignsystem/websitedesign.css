@@ -97,3 +97,18 @@ article.helvetica {
 article.comicsans {
     font-family: 'Comic Sans MS', cursive, serif;
 }
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+footer p a,
+footer p a:visited {
+    color: #8F0B8F;
+    font-weight: 600;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}

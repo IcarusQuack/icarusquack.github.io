@@ -7,29 +7,52 @@
 }
 body {
     background-color: #0C134F;
-    position: relative;
-    top: 3em;
 }
 header {
     background-color: #5C469C;
+    padding-bottom: 15px;
+}
+
+p.socials {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 nav {
-    top: 0;
-    position: fixed;
     width: 100%;
 }
 
-nav li{
-    background-color: #1D267D;
+nav li {
     display: inline-block;
-    width: 5em;
-    padding: 1em;
+}
+
+a.socials,
+a.socials:visited {
+    background-color: #1D267D;
+    padding: 8px 15px;
+    margin: 10px 8px;
+    font-size: 120%;
+    text-decoration:none;
+    cursor:pointer;
+    border-radius: 10%;
+}
+
+a.socials:hover {
+    background-color:#363d7e;
+}
+
+a.socials:active {
+    background-color:#4f5484;
 }
 
 main {
     background-color: #0C134F;
     overflow-y: scroll;
+}
+
+section {
+    margin: 20px auto;
 }
 
 footer {
