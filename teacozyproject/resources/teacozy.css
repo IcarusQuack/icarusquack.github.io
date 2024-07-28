@@ -1,4 +1,4 @@
-* {
+body {
     font-family: Helvetica, sans-serif;
     font-size: 22px; 
     color: seashell;
@@ -17,18 +17,20 @@ header,
 header img,
 header ul {
     top: 0;
-    margin: 0 10px;
     position: fixed;
 }
 
 header img {
+    margin: 0 10px;
     text-align: left;
+    top: 5px;
     left: 0px;
     height: 50px;
     display: inline-block;
 }
 
 header ul {
+    margin: 0 10px;
     display: inline-block;
     right: 0px;
     top: 20px;
@@ -38,7 +40,37 @@ header ul li{
     display: inline-block;
 }
 
+header a {
+    margin: 0 20px;
+}
+
 body {
     position: relative;
     top: 69px;
+}
+
+.ourmission {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url(./img-mission-background.webp);
+}
+
+.totd {
+    display: flex;
+    width: 1000px;
+}
+
+.col {
+    width: 300px;
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 35px 10px;
+}
+
+.location {
+    width: 1200px;
+    height: 500px;
+    background-image: url(./img-locations-background.webp);
 }
