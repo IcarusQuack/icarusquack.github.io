@@ -56,21 +56,57 @@ body {
     background-image: url(./img-mission-background.webp);
 }
 
-.totd {
+#ourmissionbanner {
+    background-color: black;
+    position: relative;
+    top: 43%;
+    padding: 1px 0;
+}
+
+.totd.container {
     display: flex;
     width: 1000px;
 }
 
 .col {
     width: 300px;
-    height: 200px;
+    height: 320px;
     display: inline-flex;
     flex-direction: column;
-    margin: 35px 10px;
+    margin: 7.5px 20px;
+    background-color: black;
 }
 
 .location {
     width: 1200px;
     height: 500px;
     background-image: url(./img-locations-background.webp);
+    margin: 0 auto;
+}
+
+.location.container {
+    display: flex;
+    width: 1200px;
+}
+
+footer {
+    height: 200px;
+}
+
+.copyright {
+    margin: 0 20px;
+    text-align: left;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: lightblue;
 }
