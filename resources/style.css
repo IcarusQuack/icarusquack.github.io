@@ -8,6 +8,23 @@
 body {
     background-color: #0C134F;
 }
+
+h1 {
+    padding: 1.2em 0;
+}
+
+figure {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+figure img {
+    text-align: center;
+    width: 100%;
+}
+
 header {
     background-color: #5C469C;
     padding-bottom: 15px;
