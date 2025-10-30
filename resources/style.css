@@ -13,14 +13,14 @@ h1 {
     padding: 1.2em 0;
 }
 
-picture {
+figure {
     width: 80%;
     height: auto;
     text-align: center;
     margin: auto;
 }
 
-picture img {
+figure img, figure picture {
     text-align: center;
     max-width: 100%;
     height: auto;
